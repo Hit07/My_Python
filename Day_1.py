@@ -3,10 +3,10 @@
 # print('hello how do you do print("hi")')
 # print("hello " + 'how are you!!')
 # print("hey" + input("how are you"))
-input_1 = int(input("what you want?\n"))
-if input_1 == 1:
-    print("yess")
-else:
-    print("no")
+
+print("Welcome to the Band Name Generator")
+a = input("what's name of the city you grew up in?\n")
+b = input ("what's your pet's name?\n")
+print("Your band name could be " +a+" "+b)
 
 
