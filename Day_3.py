@@ -103,18 +103,19 @@
 #     print(f"Your score is {love_score}")
 #__________________________________________________
 
-input_1 = input("Where do you want to go L or R?")
-input_2 = input("What do you want to do swim or wait?")
-input_3 = input("which door R,B or Y?")
-if input_1 == 'L':
-    if input_2 == 'wait':
-        if input_3 == 'R':
-            print("Game Over!!")
-        elif input_3 == "B":
-            print("Game Over!!")
-        else:
-            print("You Win!!")
-    else:
-        print("Game over!!")
-else:
-    print("Game Over!!")
+# input_1 = input("Where do you want to go L or R?")
+# input_2 = input("What do you want to do swim or wait?")
+# input_3 = input("which door R,B or Y?")
+# if input_1 == 'L':
+#     if input_2 == 'wait':
+#         if input_3 == 'R':
+#             print("Game Over!!")
+#         elif input_3 == "B":
+#             print("Game Over!!")
+#         else:
+#             print("You Win!!")
+#     else:
+#         print("Game over!!")
+# else:
+#     print("Game Over!!")
+
