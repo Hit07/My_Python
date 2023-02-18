@@ -43,10 +43,31 @@
 #     while front_is_clear():
 #         move()
 #     turn_left()
-#
+
 # while not at_goal():
 #     if wall_in_front():
 #         jump()
 #     else:
 #         move()
 #---------------------------------------------
+# #RELEARN THE CONCEPT INORDER TO DEBUG AND MAKE THE CODE WORK FOR ALL TESTCASES
+# def turn_right():
+#     turn_left()
+#     turn_left()
+#     turn_left()
+#
+#
+# while front_is_clear():
+#     move()
+# turn_left()
+# while not at_goal():
+#     if right_is_clear():
+#         turn_right()
+#         move()
+#     elif front_is_clear():
+#         move()
+#     else:
+#         turn_left()
+#_______________________________________________________
+
+
