@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ea4167e-7976-4a23-b3ed-758707b94fba" name="Changes" comment="Few changes">
-      <change afterPath="$PROJECT_DIR$/My_work_python/Day_3.py" afterDir="false" />
+    <list default="true" id="6ea4167e-7976-4a23-b3ed-758707b94fba" name="Changes" comment="My__work">
+      <change afterPath="$PROJECT_DIR$/Caesar_Cipher_art.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caesar_Cipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/Caesar_Cipher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +31,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8432f8fb-5756-407f-bcce-cc79966cb774" />
+        <option name="url" value="https://github.com/Hit07/My_Python.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Day_1.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Lm68FMG7LQ9eVgiSBTdjeW8zeQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,6 +64,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
+    ]
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -100,8 +122,110 @@
       <option name="project" value="LOCAL" />
       <updated>1676470061894</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Few changes">
+      <created>1676533255029</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676533255029</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Few changes">
+      <created>1676533289037</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676533289037</updated>
+    </task>
+    <task id="LOCAL-00009" summary="My updates">
+      <created>1676533399760</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676533399760</updated>
+    </task>
+    <task id="LOCAL-00010" summary="My updates">
+      <created>1676559729394</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676559729394</updated>
+    </task>
+    <task id="LOCAL-00011" summary="My updates">
+      <created>1676623444149</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676623444149</updated>
+    </task>
+    <task id="LOCAL-00012" summary="My updates">
+      <created>1676649111056</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676649111056</updated>
+    </task>
+    <task id="LOCAL-00013" summary="My updates">
+      <created>1676728147800</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676728147800</updated>
+    </task>
+    <task id="LOCAL-00014" summary="My updates">
+      <created>1676784601297</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676784601297</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Hangman">
+      <created>1676795760883</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676795760883</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Hangman">
+      <created>1676795808283</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676795808283</updated>
+    </task>
+    <task id="LOCAL-00017" summary="My__work">
+      <created>1676795892462</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676795892462</updated>
+    </task>
+    <task id="LOCAL-00018" summary="My__work">
+      <created>1676874704879</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676874704879</updated>
+    </task>
+    <task id="LOCAL-00019" summary="My__work">
+      <created>1677000307563</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677000307563</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -118,6 +242,10 @@
     <MESSAGE value="changes" />
     <MESSAGE value="few changes" />
     <MESSAGE value="Few changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Few changes" />
+    <MESSAGE value="My updates" />
+    <MESSAGE value="Hangman" />
+    <MESSAGE value="My_work" />
+    <MESSAGE value="My__work" />
+    <option name="LAST_COMMIT_MESSAGE" value="My__work" />
   </component>
 </project>
