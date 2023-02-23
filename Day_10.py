@@ -95,5 +95,4 @@ def Calculator():
       print("Good Bye!")
     elif to_continue=='refresh':
       Calculator()
-
 Calculator()
