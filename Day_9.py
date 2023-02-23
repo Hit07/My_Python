@@ -97,11 +97,21 @@
 # #---------------------------------------------------------------------------------------------
 #BIDING THE HIGHEST AMOUNT
 from replit import clear
-import art
+from art import logo
 
 # HINT: You can call clear() to clear the output in the console.
-print(art.logo)
+print(logo)
 print("-------------------------------------------------------------")
+def Highest_bidder(log):
+    print(log)
+    # print(max(log))
+    Highest_bid = 0
+    Highest_bidder= ''
+    for key in log:
+        if log[key] > a:
+            Highest_bid = log[key]
+            Highest_bidder = key
+    print(f"The winner is {Highest_bidder} with bid of {Highest_bid}")
 
 name = input("What is your name?")
 bid = int(input("What is your bid?$"))
@@ -115,12 +125,4 @@ while to_continue == 'Y':
     to_continue = input("Are there any other bidder?Type 'Y'or'N':")
     log[name] = bid
 if to_continue == 'N':
-    print(log)
-    # print(max(log))
-    a = 0
-    b = ''
-    for key in log:
-        if log[key] > a:
-            a = log[key]
-            b = key
-print(f"The winner is {b} with bid of {a}")
+   Highest_bidder(log)
