@@ -12,23 +12,23 @@ def game():
         if choose_a == choose_b:
             choose_a = choose_b
             choose_b = choice(list(list_people.keys()))
-        print(list_people[choose_a],list_people[choose_b])
+        # print(list_people[choose_a],list_people[choose_b])
         print(f"Compare A: {choose_a}")
         print(logo_vs)
         print(f"Against B: {choose_b}")
-        guess = input("Who has more followers Type 'A' or 'B':").lower()
+        guess = input("\nWho has more followers Type 'A' or 'B':").lower()
         if guess =='a' and list_people[choose_a]<list_people[choose_b]:
             score += 1
-            print(f"Good Job!,Right answer....Final Score: {score}")
+            print(f"\nGood Job!,Right answer....Final Score: {score}")
         elif guess == 'b' and list_people[choose_a]>list_people[choose_b]:
             score += 1
-            print(f"Good Job!,Right answer....Final Score: {score}")
+            print(f"\nGood Job!,Right answer....Final Score: {score}")
         else:
-            print(f"Sorry,that's wrong answer.Final Score: {score}\n\nGame Over!!😓")
+            print(f"\nSorry,that's wrong answer.Final Score: {score}\n\nGame Over!!😓")
             play_game = False
 
 input_1 =input("Wanna play the game:Type 'yes' or 'no':--").lower()
-if input_1=='yes':
+if input_1 == 'yes':
     game()
 else:
     print("Try once!!")
