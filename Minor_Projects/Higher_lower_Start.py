@@ -3,48 +3,32 @@ from Higher_lower_Start_art import logo_1
 from Higher_lower_Start_art import logo_vs
 from random import choice
 print("--------------------------------------\n"+logo_1+"-----------------------------------------\n")
-
-def play_game():
-    def compare(choose_a,choose_b,guess):
-        global score
-        if guess =='A':
-            if list_people[choose_a]>list_people[choose_b]:
-                score += 1
-                return print(f"Good Job!,Right answer....Final Score: {score}")
-            elif list_people[choose_a] == list_people[choose_b]:
-                score+=1
-                return print(f"Draw match!,Try Again...Final Score:{score}")
-            else:
-                return print(f"Sorry,that's wrong answer.Final Score: {score}")
-
-        if guess == 'B':
-            if list_people[choose_a]<list_people[choose_b]:
-                score += 1
-                return print(f"Good Job!,Right answer....Final Score: {score}")
-            elif list_people[choose_a] == list_people[choose_b]:
-                 score+=1
-                 return print(f"Draw match!,Try Again...Final Score:{score}")
-            else:
-                return print(f"Sorry,that's wrong answer.Final Score: {score}")
-
-    choose_a = choice(list(list_people.keys()))
+def game():
+    score = 0
+    play_game = True
     choose_b = choice(list(list_people.keys()))
-    print(list_people[choose_a],list_people[choose_b])
-    print(f"Compare A: {choose_a}")
-    print(logo_vs)
-    print(f"Against B: {choose_b}")
-    guess = input("Who has more followers Type 'A' or 'B':")
-    compare(choose_a, choose_b, guess)
+    while play_game:
+        choose_a = choose_b
+        if choose_a == choose_b:
+            choose_a = choose_b
+            choose_b = choice(list(list_people.keys()))
+        print(list_people[choose_a],list_people[choose_b])
+        print(f"Compare A: {choose_a}")
+        print(logo_vs)
+        print(f"Against B: {choose_b}")
+        guess = input("Who has more followers Type 'A' or 'B':").lower()
+        if guess =='a' and list_people[choose_a]<list_people[choose_b]:
+            score += 1
+            print(f"Good Job!,Right answer....Final Score: {score}")
+        elif guess == 'b' and list_people[choose_a]>list_people[choose_b]:
+            score += 1
+            print(f"Good Job!,Right answer....Final Score: {score}")
+        else:
+            print(f"Sorry,that's wrong answer.Final Score: {score}\n\nGame Over!!😓")
+            play_game = False
 
-
-score = 0
-play = True
-while play:
-    play_game()
-    to_continue = input("Do you wanna continue?\nType 'yes' or 'no':").lower()
-    if to_continue == 'yes':
-        continue
-    else:
-        play = False
-print('Game over!!👋')
-
+input_1 =input("Wanna play the game:Type 'yes' or 'no':--").lower()
+if input_1=='yes':
+    game()
+else:
+    print("Try once!!")

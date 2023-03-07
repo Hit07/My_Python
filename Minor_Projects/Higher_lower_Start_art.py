@@ -29,7 +29,7 @@ list_people ={
 'Lionel Messi,Footballer,Argentina':3,
 'Selena Gomez,Musician Actress,Businesswoman,USA':4,
 'Kylie Jenner,Television Personality,Model,Businesswoman,USA':5,
-'Dwayne Johnson	Actor,Professional Wrestler,USA':6,
+'Dwayne Johnson,Actor,Professional Wrestler,USA':6,
 'Ariana Grande,Musician/Actress,USA':7,
 'Kim Kardashian,Television Personality,Model,Businesswoman,USA':8,
 'Beyonce,Musician,USA':9,
